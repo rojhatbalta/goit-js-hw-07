@@ -1,0 +1,36 @@
+.button-create {
+  margin-top: 8px;
+  background-color: #4e75ff;
+  color: #ffffff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+}
+
+.button-destroy {
+  margin-top: 8px;
+  background-color: #ff4e4e;
+  color: #ffffff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 8px;
+}
+
+#controls {
+  background-color: #f6f6fe;
+  padding: 32px;
+  display: flex;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+#boxes {
+  background-color: #f6f6fe;
+  display: flex;
+  padding: 32px;
+  gap: 44px;
+}
+
+.boxCSS {
+  flex-shrink: 0;
+}
