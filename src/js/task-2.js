@@ -26,7 +26,7 @@ const images = [
 ];
 
 const galleryList = document.querySelector(`.gallery`);
-
+/*
 images.forEach((image) => {
   const li = document.createElement(`li`);
   const img = document.createElement(`img`);
@@ -35,3 +35,10 @@ images.forEach((image) => {
   li.appendChild(img);
   galleryList.appendChild(li);
 });
+*/
+//backtickler ile çözümü
+const html = images
+  .map((item) => `<li><img src="${item.url}" alt="${item.alt}"></li>`)
+  .join("");
+
+galleryList.innerHTML = html;
