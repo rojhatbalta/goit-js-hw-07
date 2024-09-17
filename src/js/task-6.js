@@ -25,14 +25,14 @@ function createBoxes(amount) {
 }
 
 function destroyBoxes() {
-  boxesContainer.innerHTML = "";
+  boxesContainer.innerHTML = ``;
 }
 
 createButton.addEventListener(`click`, () => {
   const amount = input.value;
   if (amount > 0 && amount <= 100) {
     createBoxes(amount);
-    input.value = "";
+    input.value = ``;
   }
 });
 
